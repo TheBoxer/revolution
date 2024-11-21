@@ -179,7 +179,7 @@ class TopMenu
                 $description = '<span class="description">'.$menu['description'].'</span>'."\n";
             }
 
-            $top = !empty($menu['children']) ? ' top' : '';
+            $top = ' top';
             $position = $idx <= 2 && $placeholder == 'navb' ? 'down' : 'up';
 
             $menuTpl = '<li id="limenu-'.$menu['id'].'"class="menu-'.$position.$top.'">'."\n";
